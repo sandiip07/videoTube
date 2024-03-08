@@ -1,19 +1,19 @@
 {
-  "name": "backend-project",
+  "name": "videotube",
   "version": "1.0.0",
-  "description": "a backend project",
-  "type": "module",
+  "description": "video stream plateform",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "javascript",
-    "backend"
+    "code",
+    "react"
   ],
-  "author": "sandeep ahirwar",
+  "author": "sandeep",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+  "dependencies": {
+    "express": "^4.18.3"
   }
 }
