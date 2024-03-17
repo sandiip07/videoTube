@@ -51,6 +51,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
 
     // upload them to cloudinary, avatar
+    // upload them to cloudinary, avatar
     const avatar = await uploadOnCloudinary(avatarLocalPath)
     const coverImage = await uploadOnCloudinary(coverImageLocalPath)
 
