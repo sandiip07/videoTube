@@ -26,7 +26,7 @@ const uploadOnCloudinary = async (localFilePath) => {
 }
 
 
-export {uploadOnCloudinary};
+export { uploadOnCloudinary };
 
 // this is the method which is provided by the cloudinary , but we have to make it according to our use so we made our owe method this will work same
 
